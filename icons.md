@@ -1,0 +1,9 @@
+<i class="ri-dashboard-line"></i> <!-- dashboard -->
+<i class="ri-bar-chart-2-line"></i>
+<i class="ri-account-pin-box-line"></i>
+<i class="ri-account-box-line"></i>
+<i class="ri-user-line"></i>
+<i class="ri-calendar-2-line"></i>
+<i class="ri-settings-2-line"></i>
+<i class="ri-equalizer-fill"></i>
+<i class="ri-pulse-fill"></i>
