@@ -6,13 +6,11 @@
 }
 body{
     /* font-family: 'Poppins'; */
-    background-color: #f6f5f5;
+    /* background-color: #f6f5f5; */
 
 }
 .wrapper{
-    /* width: 100%; */
-    height: 600px;
-    background-color: #f6f5f5;
+    /* background-color: #e80404; */
     /* background-color: red; */
     font-family: 'Manrope';
 
@@ -23,14 +21,12 @@ body{
     justify-content: space-between;
     background-color: #FCFAFF;
     background-color: white;
-    height: 100px;
     border-bottom: 1px solid rgb(197, 197, 197);
     /* gap: 40px; */
 
 }
 .brand{
     /* background-color: blue; */
-    height: 100px;
     flex-basis: 20rem;
 }
 .nav-bar{
@@ -71,20 +67,23 @@ body{
 }
 .container{
     display: flex;
-    background-color: violet;
-    height: 500px;
+    /* background-color: violet; */
+    /* height: 500px; */
 }
 .aside{
     flex-basis: 18rem;
-    height: 500px;
+    /* height: 500px; */
     background-color: tomato;
     background-color: white;
-    padding: 20px;
+    border-right: 1px solid rgb(197, 197, 197);
+
 }
 .profile{
     display: flex;
     justify-content: space-between;
-    margin-bottom: 30px;
+    /* margin-bottom: 30px; */
+    padding: 20px;
+
 }
 .profile-pic{
     display: flex;
@@ -100,7 +99,7 @@ body{
     font-size: 20px;
     font-weight: 600;
 }
-.profile P{
+.profile p{
     color: #6e6e6e;
 
 }
@@ -122,8 +121,14 @@ body{
     display: flex;
     /* justify-content: space-between; */
     gap: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
+    padding: 20px;
 
+
+}
+.calendar{
+    border-bottom: 1px solid rgb(197, 197, 197);
+    padding-bottom: 30px;
 }
 
 .my-profile{
@@ -139,9 +144,8 @@ body{
 .calendar i,
 .candidate i, 
 .my-profile i,
-.setting i
-{
-font-size: 30px;
+.setting i{
+    font-size: 25px;
 }
 .dashboard h2,
 .finance h2,
@@ -151,5 +155,211 @@ font-size: 30px;
 .candidate h2, 
 .my-profile h2,
 .setting h2{
-    font-weight: 500;
+    font-weight: 400;
+    font-size: 20px;
 }
+.main{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 62rem;
+    background-color: #f6f5f5;
+    background-color: rgb(244, 245, 246);
+    gap: 30px;
+    padding: 20px;
+}
+.top-main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-basis: 8rem;
+    /* background-color: black; */
+    gap: 20px;
+    /* padding: 10px; */
+}
+.total-employees,
+.job-view,
+.job-applied,
+.resigned-employees{
+    /* display: flex;
+    flex-basis: 200px;
+    background-color: #FCFAFF; */
+}
+.total-employees{
+    display: flex;
+    flex-direction: row;
+    flex-basis: 200px;
+    flex-grow: 1;
+    height: 140px;
+    background-color: #FCFAFF; 
+    border-radius: 8px;
+}
+.job-view{
+    display: flex;
+    flex-direction: row;
+    /* flex-grow: 1; */
+    flex-basis: 200px;
+    flex-grow: 1;
+    height: 140px;
+    background-color: #FCFAFF; 
+    /* background-color: red; */
+    border-radius: 8px;
+}
+.job-applied{
+    display: flex;
+    flex-direction: row;
+    /* flex-grow: 1; */
+    flex-basis: 200px;
+    flex-grow: 1;
+    height: 140px;
+    background-color: #FCFAFF; 
+    /* background-color: blue; */
+    border-radius: 8px;
+}
+.resigned-employees{
+    display: flex;
+    flex-direction: row;
+    flex-basis: 250px;
+    /* flex-grow: 1; */
+    /* flex-grow: 1; */
+    height: 140px;
+    background-color: #FCFAFF; 
+    /* background-color: yellow; */
+    border-radius: 8px;
+}
+.title{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    gap: 10px;
+}
+.title h2{
+    font-size: 15px;
+    font-weight: 600;
+}
+.title h1{
+    font-weight: 700;
+}
+.title p{
+    color: #6e6e6e;
+
+}
+.job-statistics{
+    background-color: tomato;
+    background-color: #FCFAFF; 
+    display: flex;
+    justify-content: space-between;
+    flex-basis: 15rem;
+    border-radius: 8px;
+    padding: 20px;
+
+}
+.jobs{
+    display: flex;
+    justify-content: space-between;
+    /* gap: 20px; */
+}
+.job-view,
+.job-applied{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.status-composition{
+    display: flex;
+    flex-direction: row;
+    /* background-color: darkviolet; */
+    
+    flex-basis: 15rem;
+    gap: 20px;
+}
+.status-composition h3{
+    font-size: 15px;
+}
+.employee-status{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    background-color: dimgray;
+    background-color: #FCFAFF;
+    /* background-color: brown; */
+
+    border-radius: 8px;
+}
+.employee-composition{
+    flex-grow: 1;
+    background-color: black;
+    background-color: #FCFAFF; 
+
+    border-radius: 8px;
+
+}
+.name{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 20px 0px 20px;
+
+}
+.name h1{
+    font-size: 20px;
+    font-weight: 600;
+}
+.name span{
+    margin-left: 10px;
+    color: blue;
+
+}
+.name p{
+    color: blue;
+}
+.about-employee{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    /* align-self: center; */
+}
+.employee-details{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    color: #6e6e6e;
+    text-align: center;
+
+}
+.justin,
+.marcus,
+.leo{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+}
+.img{
+    display: flex;
+    gap: 10px;
+}
+.justin img,
+.marcus img,
+.leo img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.employee-name{
+    font-size: 20px;
+    margin-top: 10px;
+}
+.percentage{
+    display: flex;
+}
+.permanent{
+    color: aquamarine;
+    background-color: #edecec;
+    border-radius: 10px;
+    padding: 6px;
+}
+.contract{
+    border-radius: 10px;
+    background-color: #edecec;
+    padding: 6px;
+}
+
